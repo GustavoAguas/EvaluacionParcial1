@@ -14,7 +14,7 @@ namespace EvaluacionParcial1.Ejercicios
             Console.WriteLine($"Nombre: {Nombre}");
             Console.WriteLine($"Edad: {Edad}");
             Console.WriteLine($"Calificación: {Calificacion}");
-            Console.WriteLine($"Calificación: {Titulo}");
+            Console.WriteLine($"Titulo: {Titulo}");
         }
 
     }
