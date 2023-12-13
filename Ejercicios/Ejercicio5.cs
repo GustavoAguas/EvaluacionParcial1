@@ -9,13 +9,6 @@ namespace EvaluacionParcial1.Ejercicios
     public class EstudianteGraduado : Estudiante
     {
         public string Titulo { get; set; }
-        public new void MostrarInformacion()
-        {
-            Console.WriteLine($"Nombre: {Nombre}");
-            Console.WriteLine($"Edad: {Edad}");
-            Console.WriteLine($"Calificación: {Calificacion}");
-            Console.WriteLine($"Titulo: {Titulo}");
-        }
 
     }
 
@@ -30,12 +23,13 @@ namespace EvaluacionParcial1.Ejercicios
             {
                 Nombre = "Gustavo",
                 Edad = 21,
-                Calificacion = 9.5,
-                Titulo = "Ingeniero En Software"
+                Calificacion = 20,
+                Titulo = "Ingeniero en Software"
             };
 
             Console.WriteLine("\nInformacion del Estudiante Graduado\n");
             graduado1.MostrarInformacion();
+            Console.WriteLine($"Titulo: {graduado1.Titulo}");
         }
     }
 }
